@@ -64,3 +64,13 @@ a {
 .colorTitle {
     color: rgb(255,109,36);
 }
+
+.revealGifLeft {
+    opacity: 0;
+    transform: translateX(+30px);
+}
+.revealGifLeftVisible {
+    opacity: 1;
+    transform: translateX(0);
+    transition: 1.3s;
+}
