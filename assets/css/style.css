@@ -1,0 +1,66 @@
+body {
+    background: radial-gradient(100% 50% at 0% 50%, rgb(37, 44, 46) 0%, rgb(10, 12, 13) 100%);
+    width: 100%;
+    background-size: cover;
+    background-attachment: fixed;
+    color: white;
+}
+
+.headText {
+    font-family: 'Anton', sans-serif;
+    color: whitesmoke;
+}
+
+
+
+.site__header__menu {
+    display: flex;
+    justify-content: space-between;
+    background-color: radial-gradient(100% 50% at 0% 50%, rgb(37, 44, 46) 0%, rgb(10, 12, 13) 100%);
+    padding: 1rem;
+}
+
+.site__header__menu li a {
+    text-decoration: none;
+    color: white;
+}
+
+.site__header__menu li {
+    list-style-type: none;
+}
+
+.bg-card {
+    border: 0.01rem ridge whitesmoke;
+    background: transparent;
+}
+
+a {
+    text-decoration: none;
+}
+
+.gifComputer {
+    background-image: url(https://i.giphy.com/media/cRDo0nQtSlm8w/giphy.webp);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 76%;
+}
+
+.sizeLogoPresentation {
+    font-size: 4rem;
+}
+
+.tableGif tr {
+    height: 10rem;
+}
+
+.logoGif {
+    width: 8rem;
+}
+
+#navbarNav li {
+    margin-left: 5rem;
+}
+
+.colorTitle {
+    color: rgb(255,109,36);
+}
