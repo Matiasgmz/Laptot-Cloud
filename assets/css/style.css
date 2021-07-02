@@ -70,7 +70,7 @@ a {
 /* For text gif  */
 .revealGifRight {
     opacity: 0;
-    transform: translateX(+3px);
+    transform: translateX(+100px);
 }
 .revealGifRightVisible {
     opacity: 1;
@@ -81,11 +81,11 @@ a {
 @media (max-width: 600px) {
     .revealGifRight {
         opacity: 0;
-        transform: translateX(0px);
+        transform: translateY(70px);
     }
     .revealGifRightVisible {
         opacity: 1;
-        transform: translateX(0);
+        transform: translateY(0);
         transition: 1.3s;
     }
   }
@@ -94,19 +94,19 @@ a {
 /* For logo gif */
 .reveal {
     opacity: 0;
-    transform: translateY(0);
+    transform: translateX(50px);
 }
 
 .reveal-visible {
     opacity: 1;
-    transform: translateY(0);
+    transform: translateX(0);
     transition: 2s;
 }
 
 @media (max-width: 600px) {
     .reveal {
         opacity: 0;
-        transform: translateY(0);
+        transform: translateY(50px);
     }
     
     .reveal-visible {
@@ -131,11 +131,11 @@ a {
 @media (max-width: 600px) {
     .revealGifLeft {
         opacity: 0;
-        transform: translateX(0px);
+        transform: translateY(50px);
     }
     .revealGifLeftVisible {
         opacity: 1;
-        transform: translateX(0);
+        transform: translateY(0);
         transition: 1.5s;
     }
   }
