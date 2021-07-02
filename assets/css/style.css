@@ -70,7 +70,7 @@ a {
 /* For text gif  */
 .revealGifRight {
     opacity: 0;
-    transform: translateX(+100px);
+    transform: translateX(+30px);
 }
 .revealGifRightVisible {
     opacity: 1;
@@ -78,7 +78,7 @@ a {
     transition: 1.3s;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 1200px) {
     .revealGifRight {
         opacity: 0;
         transform: translateY(70px);
@@ -94,7 +94,7 @@ a {
 /* For logo gif */
 .reveal {
     opacity: 0;
-    transform: translateX(50px);
+    transform: translateX(30px);
 }
 
 .reveal-visible {
@@ -103,24 +103,11 @@ a {
     transition: 2s;
 }
 
-@media (max-width: 600px) {
-    .reveal {
-        opacity: 0;
-        transform: translateY(50px);
-    }
-    
-    .reveal-visible {
-        opacity: 1;
-        transform: translateY(0);
-        transition: 2s;
-    }
-  }
-
 /* For Gift left  */
 
 .revealGifLeft {
     opacity: 0;
-    transform: translateX(-100px);
+    transform: translateX(-70px);
 }
 .revealGifLeftVisible {
     opacity: 1;
@@ -128,7 +115,7 @@ a {
     transition: 1.5s;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 1200px) {
     .revealGifLeft {
         opacity: 0;
         transform: translateY(50px);
