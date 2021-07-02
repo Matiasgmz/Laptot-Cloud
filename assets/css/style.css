@@ -65,16 +65,31 @@ a {
     color: rgb(255,109,36);
 }
 
+/* animation  */
+
 /* For text gif  */
 .revealGifRight {
     opacity: 0;
-    transform: translateX(+30px);
+    transform: translateX(+3px);
 }
 .revealGifRightVisible {
     opacity: 1;
     transform: translateX(0);
     transition: 1.3s;
 }
+
+@media (max-width: 600px) {
+    .revealGifRight {
+        opacity: 0;
+        transform: translateX(0px);
+    }
+    .revealGifRightVisible {
+        opacity: 1;
+        transform: translateX(0);
+        transition: 1.3s;
+    }
+  }
+
 
 /* For logo gif */
 .reveal {
@@ -87,3 +102,41 @@ a {
     transform: translateY(0);
     transition: 2s;
 }
+
+@media (max-width: 600px) {
+    .reveal {
+        opacity: 0;
+        transform: translateY(0);
+    }
+    
+    .reveal-visible {
+        opacity: 1;
+        transform: translateY(0);
+        transition: 2s;
+    }
+  }
+
+/* For Gift left  */
+
+.revealGifLeft {
+    opacity: 0;
+    transform: translateX(-100px);
+}
+.revealGifLeftVisible {
+    opacity: 1;
+    transform: translateX(0);
+    transition: 1.5s;
+}
+
+@media (max-width: 600px) {
+    .revealGifLeft {
+        opacity: 0;
+        transform: translateX(0px);
+    }
+    .revealGifLeftVisible {
+        opacity: 1;
+        transform: translateX(0);
+        transition: 1.5s;
+    }
+  }
+
