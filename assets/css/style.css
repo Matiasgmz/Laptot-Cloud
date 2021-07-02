@@ -65,12 +65,25 @@ a {
     color: rgb(255,109,36);
 }
 
-.revealGifLeft {
+/* For text gif  */
+.revealGifRight {
     opacity: 0;
     transform: translateX(+30px);
 }
-.revealGifLeftVisible {
+.revealGifRightVisible {
     opacity: 1;
     transform: translateX(0);
     transition: 1.3s;
+}
+
+/* For logo gif */
+.reveal {
+    opacity: 0;
+    transform: translateY(0);
+}
+
+.reveal-visible {
+    opacity: 1;
+    transform: translateY(0);
+    transition: 2s;
 }
