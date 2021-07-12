@@ -21,7 +21,7 @@ document.querySelectorAll('.revealGifRight').forEach(function (m) {
     observerForTextGif.observe(m)
 });
 
-// For Gif 
+// For Gif Computer
 
 const ratioForGif = 0.6;
 const optionForGif = {
@@ -43,25 +43,50 @@ const observerForGif = new IntersectionObserver(handleIntersectForGif, optionFor
 document.querySelectorAll('.reveal').forEach(function (m) {
     observerForGif.observe(m)
 });
-// For logo Gif 
 
-const ratio = 0.6;
-const option = {
-    threshold: ratio,
+// For Logo Gif 
+
+const ratioLogo = 0.6;
+const optionLogo = {
+    threshold: ratioLogo,
 }
 
-const handleIntersect = function (entries) {
-    entries.forEach(function (entry) {
-        if (entry.intersectionRatio > ratio) {
-            entry.target.classList.add('revealGifLeftVisible')
+const handleIntersectLogo = function (entriesLogo) {
+    entriesLogo.forEach(function (entryLogo) {
+        if (entryLogo.intersectionRatio > ratioLogo) {
+            entryLogo.target.classList.add('revealGifLeftVisible')
         }
         else {
-            entry.target.classList.remove('revealGifLeftVisible')
+            entryLogo.target.classList.remove('revealGifLeftVisible')
         }
     });
 }
 
-const observer = new IntersectionObserver(handleIntersect, option)
+const observerLogo = new IntersectionObserver(handleIntersectLogo, optionLogo)
 document.querySelectorAll('.revealGifLeft').forEach(function (r) {
-    observer.observe(r)
+    observerLogo.observe(r)
+});
+
+// For Tablette gif 
+
+
+const ratioTablette = 0.6;
+const optionTablette = {
+    threshold: ratioTablette,
+}
+
+const handleIntersectTablette = function (entriesTablette) {
+    entriesTablette.forEach(function (entryTablette) {
+        if (entryTablette.intersectionRatio > ratioTablette) {
+            entryTablette.target.classList.add('revealGifTabletteVisible')
+        }
+        else {
+            entryTablette.target.classList.remove('revealGifTabletteVisible')
+        }
+    });
+}
+
+const observerTablette = new IntersectionObserver(handleIntersectTablette, optionTablette)
+document.querySelectorAll('.revealGifTablette').forEach(function (r) {
+    observerTablette.observe(r)
 });

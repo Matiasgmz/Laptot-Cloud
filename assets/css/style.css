@@ -65,6 +65,13 @@ a {
     color: rgb(255,109,36);
 }
 
+.gifTablette {
+    background-image: url(https://media1.tenor.com/images/a9856db3aa8fb6ea99577f7c6d1e2fdf/tenor.gif?itemid=18856272);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 55%;
+}
+
 /* animation  */
 
 /* For text gif  */
@@ -127,3 +134,24 @@ a {
     }
   }
 
+
+/* For Tablette gif */
+
+.revealGifTablette {
+    opacity: 0;
+    transform: translateX(-70px);
+}
+.revealGifTabletteVisible {
+    opacity: 1;
+    transform: translateX(0);
+    transition: 1.5s;
+}
+
+.textFooter {
+    text-shadow: 10px 5px 100px grey;
+    color: whitesmoke;
+}
+
+.footerContainStyle {
+    background-color: rgb(10, 12, 13);
+}
