@@ -1,5 +1,5 @@
 body {
-    background: radial-gradient(100% 50% at 0% 50%, rgb(37, 44, 46) 0%, rgb(10, 12, 13) 100%);
+    background: radial-gradient(100% 50% at 100% 50%, rgb(37, 44, 46) 0%, rgb(10, 12, 13) 100%);
     width: 100%;
     background-size: cover;
     background-attachment: fixed;
@@ -9,24 +9,6 @@ body {
 .headText {
     font-family: 'Anton', sans-serif;
     color: whitesmoke;
-}
-
-
-
-.site__header__menu {
-    display: flex;
-    justify-content: space-between;
-    background-color: radial-gradient(100% 50% at 0% 50%, rgb(37, 44, 46) 0%, rgb(10, 12, 13) 100%);
-    padding: 1rem;
-}
-
-.site__header__menu li a {
-    text-decoration: none;
-    color: white;
-}
-
-.site__header__menu li {
-    list-style-type: none;
 }
 
 .bg-card {
@@ -95,7 +77,7 @@ a {
         transform: translateY(0);
         transition: 1.3s;
     }
-  }
+}
 
 
 /* For logo gif */
@@ -132,7 +114,7 @@ a {
         transform: translateY(0);
         transition: 1.5s;
     }
-  }
+}
 
 
 /* For Tablette gif */
